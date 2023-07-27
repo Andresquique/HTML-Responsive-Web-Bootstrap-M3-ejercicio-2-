@@ -1,0 +1,29 @@
+* {
+    font-family: 'Source Sans 3', sans-serif;
+    color: #04146c;
+    font-size: 18px;
+}
+.button {
+    font-size: 0.6rem;
+    color: white;
+    background-color: #04146c;
+    width: 150px;
+    font-variant: small-caps;
+}
+body {
+    width: 400px;
+}
+h1 {
+    font-size: 5rem;
+}
+p , em {
+    font-size: 0.8rem;
+}
+@media (min-width: 768px) { 
+    body {
+        width: 100%;
+    }
+    #img {
+        width: 80%;
+    }
+}
